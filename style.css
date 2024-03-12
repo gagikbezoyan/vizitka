@@ -58,7 +58,9 @@ h2{
     box-shadow: 20px 40px 20px rgba(0, 0, 0, 0.2); /* Добавление маленькой тени */
 
 }
-
+section{
+    background-color: white;
+}
 .logo2-container {
     background-color: white;
     border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
