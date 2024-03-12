@@ -46,6 +46,7 @@ h2{
 }
 
 .logo-container {
+    background-color: white;
     border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
     border-radius: 50%; /* Создание круглой формы */
     overflow: hidden; /* Обрезание изображения по границам контейнера */
@@ -59,6 +60,7 @@ h2{
 }
 
 .logo2-container {
+    background-color: white;
     border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
     border-radius: 50%; /* Создание круглой формы */
     overflow: hidden; /* Обрезание изображения по границам контейнера */
@@ -85,6 +87,7 @@ h2{
     width: 90%; /* Заполнение контейнера изображением */
 }
 .logo3-container {
+    background-color: white;
     border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
     border-radius: 50%; /* Создание круглой формы */
     overflow: hidden; /* Обрезание изображения по границам контейнера */
