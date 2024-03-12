@@ -25,7 +25,7 @@ h2{
 .headers{
     background-color: #133657;
     width: 100%;
-    height: 650px;
+    height: 350px;
     text-align: center;
     border-bottom: 5px solid #0e0f2c;
 }
@@ -49,13 +49,56 @@ h2{
     border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
     border-radius: 50%; /* Создание круглой формы */
     overflow: hidden; /* Обрезание изображения по границам контейнера */
-    width: 450px; /* Задайте необходимую ширину */
-    height: 450px; /* Задайте необходимую высоту */
+    width: 500px; /* Задайте необходимую ширину */
+    height: 500px; /* Задайте необходимую высоту */
     text-align: center;
     margin: auto;
-    margin-top: -225px;
+    margin-top: -250px;
+    box-shadow: 20px 40px 20px rgba(0, 0, 0, 0.2); /* Добавление маленькой тени */
+
 }
 
+.logo2-container {
+    border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
+    border-radius: 50%; /* Создание круглой формы */
+    overflow: hidden; /* Обрезание изображения по границам контейнера */
+    width: 500px; /* Задайте необходимую ширину */
+    height: 500px; /* Задайте необходимую высоту */
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 20px 40px 20px rgba(0, 0, 0, 0.2); /* Добавление маленькой тени */
+
+}
+.otstup{
+    margin-top: 150px;
+    width: 100%;
+    border-bottom: 4px solid white;
+}
+.polosa{
+    border-bottom: 4px solid #0e0f2c;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+.logo2-container img {
+    width: 90%; /* Заполнение контейнера изображением */
+}
+.logo3-container {
+    border: 5px solid #0e0f2c; /* Цвет и толщина рамки */
+    border-radius: 50%; /* Создание круглой формы */
+    overflow: hidden; /* Обрезание изображения по границам контейнера */
+    width: 500px; /* Задайте необходимую ширину */
+    height: 500px; /* Задайте необходимую высоту */
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 20px 40px 20px rgba(0, 0, 0, 0.2); /* Добавление маленькой тени */
+
+}
+.logo3-container img {
+    width: 105%; /* Заполнение контейнера изображением */
+}
 .logo-container img {
     width: 100%; /* Заполнение контейнера изображением */
     height: 100%;
@@ -125,7 +168,7 @@ height: auto;
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
-font-size: 24px;
+font-size: 65px;
 border: none;
 background: transparent;
 cursor: pointer;
