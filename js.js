@@ -30,33 +30,32 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   document.addEventListener('DOMContentLoaded', function () {
-    const carousel = document.querySelector('.carousel2');
-    const prevButton = document.querySelector('.prev2');
-    const nextButton = document.querySelector('.next2');
+    const carousels = document.querySelector('.carousels');
+    const prevsButton = document.querySelector('.prevs');
+    const nextsButton = document.querySelector('.nexts');
   
-    let currentIndex = 0;
+    let currentIndexs = 0;
   
-    prevButton.addEventListener('click', function () {
-      if (currentIndex > 0) {
-        currentIndex--;
+    prevsButton.addEventListener('click', function () {
+      if (currentIndexs > 0) {
+        currentIndexs--;
       } else {
-        currentIndex = carousel.children.length - 1;
+        currentIndexs = carousels.children.length - 1;
       }
-      updateCarousel();
+      updateCarousels();
     });
   
-    nextButton.addEventListener('click', function () {
-      if (currentIndex < carousel.children.length - 1) {
-        currentIndex++;
+    nextsButton.addEventListener('click', function () {
+      if (currentIndexs < carousels.children.length - 1) {
+        currentIndexs++;
       } else {
-        currentIndex = 0;
+        currentIndexs = 0;
       }
-      updateCarousel();
+      updateCarousels();
     });
   
-    function updateCarousel() {
-      const transformValue = -currentIndex * 100 + '%';
-      carousel.style.transform = 'translateX(' + transformValue + ')';
+    function updateCarousels() {
+      const transformValues = -currentIndexs * 100 + '%';
+      carousels.style.transform = 'translateX(' + transformValues + ')';
     }
   });
-  
